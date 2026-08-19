@@ -1,0 +1,41 @@
+baseURL = "https://djaeger1016-bot.github.io/vals-book/"
+languageCode = "en-us"
+title = "Doodles and the Backyard Birds"
+theme = "ananke"
+paginate = 3
+
+[params]
+  description = "An enchanting children's book about courage, friendship, and making a difference by Val C."
+  author = "Val C."
+  body_classes = "antialiased bg-white"
+  
+  # Contact info
+  email = "valdrums13@hotmail.com"
+  
+  # Call to action
+  amazon_link = "https://www.amazon.com/Doodles-Backyard-Birds-Val-C/dp/B0H7T9KBJS/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Themes"
+  url = "/chapters/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
