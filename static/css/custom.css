@@ -1,0 +1,71 @@
+/* Custom Purple Theme for Doodles and the Backyard Birds */
+
+:root {
+  --primary-purple: #9370db;
+  --dark-purple: #6a4c93;
+  --light-purple: #b19cd9;
+  --text-dark: #2c2c2c;
+}
+
+/* Headings in Purple */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-purple) !important;
+  font-weight: 600;
+}
+
+/* Links in Purple */
+a {
+  color: var(--primary-purple) !important;
+}
+
+a:hover {
+  color: var(--dark-purple) !important;
+}
+
+/* Navigation Links */
+nav a {
+  color: var(--primary-purple) !important;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--dark-purple) !important;
+}
+
+/* Buttons */
+.btn, button, input[type="submit"] {
+  background-color: var(--primary-purple) !important;
+  color: white !important;
+  border-color: var(--primary-purple) !important;
+}
+
+.btn:hover, button:hover, input[type="submit"]:hover {
+  background-color: var(--dark-purple) !important;
+  border-color: var(--dark-purple) !important;
+}
+
+/* Accents and highlights */
+.highlight, mark {
+  background-color: rgba(147, 112, 219, 0.1);
+  color: var(--primary-purple);
+}
+
+/* Featured boxes and cards */
+.card, .post, article {
+  border-left: 4px solid var(--primary-purple);
+}
+
+/* Emphasis text */
+strong, b {
+  color: var(--primary-purple);
+}
+
+/* Footer */
+footer {
+  background-color: var(--light-purple);
+  color: var(--text-dark);
+}
+
+footer a {
+  color: var(--dark-purple) !important;
+}
